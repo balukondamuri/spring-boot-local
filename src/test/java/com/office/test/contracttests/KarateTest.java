@@ -1,6 +1,7 @@
 package com.office.test.contracttests;
 
 
+import com.intuit.karate.KarateOptions;
 import com.intuit.karate.junit4.Karate;
 import com.office.Application;
 import cucumber.api.CucumberOptions;
@@ -17,7 +18,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 
 @RunWith(Karate.class)
-@CucumberOptions(features = {"classpath:features/."})
+@KarateOptions(features = {"classpath:features/."})
 public class KarateTest {
 
     @BeforeClass
