@@ -1,3 +1,4 @@
+@contract
 Feature: Employee Test
 
   Background: Running Application

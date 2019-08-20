@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Karate.class)
-@KarateOptions(features = {"classpath:features/."})
+@KarateOptions(features = {"classpath:features/."},
+    tags = {"~@wip","@functional","@contract"})
 public class KarateTest {
 
     @BeforeClass
